@@ -4,29 +4,29 @@ import '@/styles/globals.css';
 import '@/styles/fonts.css';
 
 export const metadata: Metadata = {
-  title: 'VNSH Laser Strike System + FREE Camo Holster!',
-  description: 'Laser Strike System + FREE Camo Holster!',
+  title: 'Top Concealed Carry Holster - VNSH',
+  description: 'Top Concealed Carry Holster - VNSH',
   icons: {
     icon: '/favicon.png',
     apple: '/favicon.png',
   },
   openGraph: {
-    title: 'VNSH Laser Strike System + FREE Camo Holster!',
-    description: 'Laser Strike System + FREE Camo Holster!',
+    title: 'Top Concealed Carry Holster - VNSH',
+    description: 'Top Concealed Carry Holster - VNSH',
     type: 'website',
     images: [
       {
         url: '/favicon.png',
         width: 512,
         height: 512,
-        alt: 'VNSH Laser Strike System + FREE Camo Holster!',
+        alt: 'Top Concealed Carry Holster - VNSH',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VNSH Laser Strike System + FREE Camo Holster!',
-    description: 'Laser Strike System + FREE Camo Holster!',
+    title: 'Top Concealed Carry Holster - VNSH',
+    description: 'Top Concealed Carry Holster - VNSH',
     images: ['/favicon.png'],
   },
 };

@@ -10,36 +10,24 @@ const Slideshow: React.FC = () => {
 
   const slides = [
     {
-      image: '/contentimages/VNSH_LaserStrike_HeroDesktop.webp',
+      image: '/contentimages/VNSH_Camo_Holster_Top_Hero.webp',
       alt: 'Hero slide',
     },
     {
-      image: '/contentimages/VNSH_LaserStrike_5Desktop.webp',
-      alt: 'Laser Strike 5',
+      image: '/contentimages/VNSH_Camo_Holster_Top_Hero2.webp',
+      alt: 'Camo Holster Image 2',
     },
     {
-      image: '/contentimages/VNSH_LaserStrike_4Desktop.webp',
-      alt: 'Image 3',
+      image: '/contentimages/VNSH_Camo_Holster_Top_Hero3.webp',
+      alt: 'Camo Holster Image 3',
     },
     {
-      image: '/contentimages/VNSH_LaserStrike_3Desktop.webp',
-      alt: 'Laser Strike 3',
+      image: '/contentimages/VNSH_Camo_Holster_Top_Hero4.webp',
+      alt: 'Camo Holster Image 4',
     },
     {
-      image: '/contentimages/VNSH_LaserStrike_2Desktop.webp',
-      alt: 'Laser Strike 2',
-    },
-    {
-      image: '/contentimages/VNSH_LaserStrike_1Desktop.webp',
-      alt: 'Laser Strike 2',
-    },
-    {
-      image: '/contentimages/HolsterHero2.webp',
-      alt: 'Image 6',
-    },
-    {
-      image: '/contentimages/Desktop3.webp',
-      alt: 'Image 7',
+      image: '/contentimages/VNSH_Camo_Holster_Top_Hero5.webp',
+      alt: 'Camo Holster Image 5',
     },
   ];
 
@@ -125,13 +113,13 @@ const Slideshow: React.FC = () => {
       </div>
 
       {/* Thumbnails */}
-      <div className="flex justify-center space-x-3 sm:space-x-2 md:space-x-3 p-2 w-full overflow-x-auto">
+      <div className="flex justify-center space-x-3 sm:space-x-2 md:space-x-3 p-3 w-full overflow-x-auto">
         {slides.map((slide, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`flex-shrink-0 w-8 h-6 sm:w-12 sm:h-9 md:w-14 md:h-10.5 overflow-visible transition-all bg-transparent p-0 border-0 ${
-              currentSlide === index ? 'ring-1 ring-gray-300' : 'opacity-70 hover:opacity-100'
+            className={`flex-shrink-0 w-14 h-10.5 sm:w-14 sm:h-10.5 md:w-18 md:h-13.5 overflow-visible transition-all bg-transparent p-0 border-0 ${
+              currentSlide === index ? 'ring-2 ring-gray-300' : 'opacity-70 hover:opacity-100'
             }`}
             aria-label={`Go to slide ${index + 1}`}
           >
