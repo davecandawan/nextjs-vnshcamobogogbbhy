@@ -65,11 +65,11 @@ const Content: React.FC = () => {
             <div className="bg-[#f7f2f2] py-2 sm:py-2 sm:px-2 inline-block text-[15px] sm:text-2xl whitespace-nowrap overflow-x-auto w-full sm:w-auto">
               <span className="inline-flex items-center">
                 <span className="mr-1">✨</span>
-                <strong>
+                <span className="font-semibold">
                   <span className="hidden sm:inline">Highly rated by customers for: </span>
                   <span className="sm:hidden">Highly rated by customers for: </span>
                   <u>fit</u>, <u>quality</u>
-                </strong>
+                </span>
               </span>
             </div>
           </div>
@@ -262,7 +262,7 @@ const Content: React.FC = () => {
               priority
             />
           </div>
-          <div className="w-full md:w-[75%] mx-auto max-w-[1120px] py-4 px-0 md:px-0">
+          <div className="w-full md:w-[75%] mx-auto max-w-[1120px] pt-0 pb-4 px-0 md:px-0">
             <Image
               src="/contentimages/VNSH_COMPARE.webp"
               alt="VNSH Black Holster"
@@ -273,14 +273,14 @@ const Content: React.FC = () => {
             />
           </div>
           <header className="text-center pt-2 pb-1 -mb-6 md:mb-0 md:py-4">
-            <h1 className="text-3xl sm:text-3xl md:text-[46px] font-medium leading-[1] md:leading-tight mb-0 px-2">
+            <h1 className="text-3xl sm:text-3xl md:text-[42px] font-medium leading-[1] md:leading-tight mb-0 px-2">
               <div className={`font-jawbreak uppercase ${primaryFont.className}`}>
                 Our Commitment to you...
               </div>
             </h1>
           </header>
           <header className="text-center pt-2 pb-1 -mb-6 md:mb-0 md:py-4">
-            <h1 className="text-3xl sm:text-3xl md:text-[46px] font-medium leading-[1] md:leading-tight mb-0 px-2">
+            <h1 className="text-3xl sm:text-3xl md:text-[42px] font-medium leading-[1] md:leading-tight mb-0 px-2">
               <div className={`font-jawbreak uppercase ${primaryFont.className}`}>
                 You're Getting An Iron-Clad, Money-Back Guarantee
               </div>

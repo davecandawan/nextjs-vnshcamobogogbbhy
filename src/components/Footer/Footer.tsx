@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
         }}
       >
         <div
-          className={`bg-white rounded-lg max-w-6xl w-full max-h-[80vh] overflow-y-auto relative mx-auto transition-all duration-300 ease-in-out transform shadow-2xl ${showModal ? 'translate-y-0' : '-translate-y-10'}`}
+          className={`bg-white rounded-lg max-w-6xl w-full max-h-[100vh] overflow-y-auto relative mx-auto transition-all duration-300 ease-in-out transform shadow-2xl ${showModal ? 'translate-y-0' : '-translate-y-10'}`}
           onClick={e => e.stopPropagation()}
           style={{
             transition: 'transform 300ms ease-in-out, opacity 300ms ease-in-out',

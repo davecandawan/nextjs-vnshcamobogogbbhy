@@ -294,9 +294,11 @@ const YotpoReview: React.FC = () => {
                           <Image
                             src="/contentimages/square.webp"
                             alt="VNSH"
-                            fill
+                            width={30}
+                            height={30}
                             className="object-contain"
-                            sizes="16px"
+                            quality={100}
+                            priority
                           />
                         </div>
                         <span className="text-[15px] font-medium text-gray-500">VNSH Holster</span>
