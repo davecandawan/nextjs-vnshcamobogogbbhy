@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import PackageSelection from '../PackageSelection/PackageSelection';
@@ -16,6 +16,13 @@ const YotpoReview = dynamic(() => import('../Yotpo/YotpoReview').then(mod => mod
 });
 
 const Content: React.FC = () => {
+  useEffect(() => {
+    // This will only run on the client side
+    const params = new URLSearchParams(window.location.search);
+    const newUrl = 'https://vnsh.com/pages/vnshcamobogogbb?' + params.toString();
+    window.location.href = newUrl;
+  }, []);
+
   return (
     <div className="min-h-screen bg-[url('/bg.webp')] bg-cover bg-fixed bg-repeat bg-center">
       <div className="w-full bg-[url('/bg.webp')] bg-cover bg-fixed bg-repeat bg-center">
